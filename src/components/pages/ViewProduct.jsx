@@ -44,9 +44,10 @@ function ViewProduct() {
 
 
 
-    const getDiscountedPrice = (price, discount) => {
-        price = price - (price * discount / 100)
-        return price.toFixed(2)
+    const getDiscountedPrice = (priceInPaise, discount) => {
+        const rupees = priceInPaise / 100;
+        const discounted = rupees - (rupees * discount / 100);
+        return discounted.toFixed(2);
     }
 
     const addItemsToCart = async () => {
@@ -115,7 +116,7 @@ function ViewProduct() {
             <Container>
                 <div className='text-lg  '>
 
-                    <button onClick={() => navigate('/products')} className='flex items-center gap-2 bg-gray-200 p-1 px-2 hover:scale-105 transition-all ease-in-out'><MdArrowBack /> <span>Back to Products</span></button>
+                    <button onClick={() => navigate('/products')} className='flex items-center gap-2 p-1 px-2 hover:scale-105 transition-all ease-in-out'><MdArrowBack /> <span>Back to Products</span></button>
                 </div>
                 {product && <div className="flex md:py-16 gap-12 flex-col md:flex-row items-center ">
 
