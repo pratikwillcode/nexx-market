@@ -59,7 +59,7 @@ function Home() {
             <div className='w-full md:p-4'>
               <div className='text-xs font-extralight'>WECLOME TO</div>
               <h1 className='text-3xl'>Pratik's Store</h1>
-              <p className=' text-xs font-light pb-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem exercitationem nostrum ullam vero architecto optio, mollitia saepe reiciendis aliquid facilis laborum suscipit nihil nulla quam deserunt repellendus earum culpa? Atque!</p>
+              <p className=' text-sm font-light pb-4'>Discover a curated selection of top-quality products delivered right to your doorstep. From the latest tech gadgets to everyday essentials, we've got everything you need — with fast shipping, secure payments, and a customer-first experience you can trust.</p>
               <NavLink to='/products' className='p-1 px-2 bg-purple-600 text-white text-sm my-2 rounded-sm'>SHOP NOW</NavLink>
             </div>
             <div className='w-full'>
