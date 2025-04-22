@@ -127,7 +127,7 @@ function PaymentGateway() {
                     <div className='flex-1 flex flex-col max-md:px-5'>
                         <div className='text-lg py-3 '>
                         
-                            <button onClick={() => navigate('/cart')} className='flex items-center gap-2 bg-gray-200 p-1 px-2 hover:scale-105 transition-all ease-in-out'><MdArrowBack /> <span>Back to Cart</span></button>
+                            <button onClick={() => navigate('/cart')} className='flex items-center gap-2 p-1 px-2 hover:scale-105 transition-all ease-in-out'><MdArrowBack /> <span>Back to Cart</span></button>
                         </div>
                         <div className='flex flex-col pb-4'>
                             {cartItems &&
