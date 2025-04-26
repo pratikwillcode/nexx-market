@@ -84,7 +84,7 @@ function Register() {
                 {loading ? <Loader />:
                 <div className='flex justify-center py-44  h-screen'>
                     <div className='w-96'>
-                        <h1 className='text-3xl font-bold'>Register</h1>
+                        <h1 className='text-2xl font-bold mb-6'>Register</h1>
                         <form className='flex flex-col gap-4 mt-4' onSubmit={handleRegister} >
                             <input type='text' placeholder='Name' className='p-2 border border-gray-300'
                                 value={name} onChange={(e) => { setName(e.target.value) }} />
