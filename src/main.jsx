@@ -5,7 +5,7 @@ import './index.css'
 import { Provider } from 'react-redux'
 import store from './store/store.js'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import { Home, About, Profile, Products, Login, Register, Cart, Orders, AuthLayout, ChoosePaymentGateway, Featured, Loader, PaymentGateway, ViewOrder, ViewProduct } from './components/index'
+import { Home, About, Profile, Products, Login, Register, Cart, Orders, AuthLayout, ChoosePaymentGateway, Featured, Loader, PaymentGateway, ViewOrder, ViewProduct, ResetPassword } from './components/index'
 
 const router = createBrowserRouter([
   {
@@ -39,7 +39,8 @@ const router = createBrowserRouter([
       { path: "/order/:id", element: <ViewOrder /> },
       { path: "/chooseGateway", element: <ChoosePaymentGateway /> },
       { path: "/loader", element: <Loader /> },
-      { path: "/profile", element: <Profile /> }
+      { path: "/profile", element: <Profile /> },
+      { path: "/reset-password", element: <ResetPassword /> },
 
     ]
   }
