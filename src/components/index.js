@@ -22,5 +22,7 @@ import Products from "./pages/Products";
 import Cart from "./pages/ViewCart";
 import Orders from "./pages/Orders";
 import Profile from "./pages/Profile";
+import ResetPassword from "./pages/ResetPassword";
 
-export { Container, LogoutBtn, AuthLayout, CartItem, ChoosePaymentGateway, Featured, Loader, Logo, MobileCartItem, PaymentGateway, PaymentGatewayCartItems, Product, Services, Star, ViewOrder, ViewProduct, About, Home, Login, Register, Products, Cart, Orders, Profile};
+
+export { Container, LogoutBtn, AuthLayout, CartItem, ChoosePaymentGateway, Featured, Loader, Logo, MobileCartItem, PaymentGateway, PaymentGatewayCartItems, Product, Services, Star, ViewOrder, ViewProduct, About, Home, Login, Register, Products, Cart, Orders, Profile, ResetPassword};
